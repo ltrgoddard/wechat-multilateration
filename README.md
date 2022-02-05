@@ -1,6 +1,6 @@
 # WeChat multilateration
 
-This Frida script is part of an experiment to locate WeChat users using [multilateration](https://en.wikipedia.org/wiki/True-range_multilateration). For more information, see [this Observable notebook](https://observablehq.com/@ltrgoddard/wechat-multilateration).
+This Frida script is part of an experiment to locate WeChat users using [multilateration](https://en.wikipedia.org/wiki/True-range_multilateration). For more information, see [this Observable notebook](https://observablehq.com/@globalwitness/wechat-multilateration).
 
 ## Requirements
 
