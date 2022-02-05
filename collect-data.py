@@ -32,8 +32,8 @@ for run in range(RUNS):
   pid = device.spawn(["com.tencent.mm"])
   session = device.attach(pid)
 
-  LON = str(random.uniform(COORDS[0], COORDS[2]))
-  LAT = str(random.uniform(COORDS[1], COORDS[3]))
+  LON = random.uniform(COORDS[0], COORDS[2])
+  LAT = random.uniform(COORDS[1], COORDS[3])
   
   hook = f"""
     Java.perform(function() {{
