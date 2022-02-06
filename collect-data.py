@@ -25,6 +25,7 @@ def on_message(message, data):
         "lat": LAT,
         "lon": LON
       }))
+      sys.stdout.flush()
 
 device = frida.get_usb_device()
 
